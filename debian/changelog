@@ -1,0 +1,203 @@
+haskell-comonad (5.0.6-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:37:16 +0800
+
+haskell-comonad (5.0.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 30 May 2020 13:19:10 -0400
+
+haskell-comonad (5.0.5-1) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Add missing "Upstream-Name" field into "debian/copyright".
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 27 Jul 2019 10:02:28 -0400
+
+haskell-comonad (5.0.4-1) unstable; urgency=medium
+
+  [ Clint Adams ]
+  * Set Rules-Requires-Root to no.
+
+  [ Ilias Tsitsimpis ]
+  * Bump debhelper compat level to 10
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sat, 29 Sep 2018 14:39:12 +0300
+
+haskell-comonad (5.0.3-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 15:40:19 -0400
+
+haskell-comonad (5.0.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Sun, 03 Sep 2017 13:31:29 -0700
+
+haskell-comonad (5.0.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 17 Jun 2017 14:04:20 -0400
+
+haskell-comonad (5-2) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:32:56 -0400
+
+haskell-comonad (5-1) experimental; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+
+  [ Clint Adams ]
+  * New upstream release
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Fri, 07 Oct 2016 19:58:58 -0400
+
+haskell-comonad (4.2.7.2-3) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:54:13 -0500
+
+haskell-comonad (4.2.7.2-2) experimental; urgency=medium
+
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:27:13 +0200
+
+haskell-comonad (4.2.7.2-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Fri, 31 Jul 2015 18:07:21 -0400
+
+haskell-comonad (4.2.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 27 Jun 2015 17:32:43 +0200
+
+haskell-comonad (4.2.5-4) unstable; urgency=medium
+
+  * Disable doctests. These fail on vairous arches, and the problem has not
+    been investigated yet.
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 15 Jun 2015 10:14:25 +0200
+
+haskell-comonad (4.2.5-3) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:48:29 +0200
+
+haskell-comonad (4.2.5-2) experimental; urgency=medium
+
+  * Fix build depends
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 18 Apr 2015 20:04:55 +0200
+
+haskell-comonad (4.2.5-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 05 Apr 2015 17:21:59 +0200
+
+haskell-comonad (4.2-2) experimental; urgency=medium
+
+  * Depend on haskell-devscripts 0.9, found in experimental
+  * Do not depend on transformers, which now comes with GHC
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Dec 2014 20:31:35 +0100
+
+haskell-comonad (4.2-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Fri, 09 May 2014 18:48:53 -0400
+
+haskell-comonad (4.0.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Sun, 04 May 2014 08:50:34 -0400
+
+haskell-comonad (4.0-1) unstable; urgency=low
+
+  [ Joachim Breitner ]
+  * Adjust watch file to new hackage layout
+
+  [ Clint Adams ]
+  * New upstream version.
+  * Enable test suite.
+
+ -- Clint Adams <clint@debian.org>  Sat, 09 Nov 2013 20:45:46 -0500
+
+haskell-comonad (3.0.1.1-2) unstable; urgency=low
+
+  * Enable compat level 9
+  * Use substvars for Haskell description blurbs
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 May 2013 12:50:10 +0200
+
+haskell-comonad (3.0.1.1-1) experimental; urgency=low
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Sat, 09 Feb 2013 11:02:27 -0500
+
+haskell-comonad (3.0.0.2-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Wed, 17 Oct 2012 20:08:10 +0200
+
+haskell-comonad (1.1.1.5-2) experimental; urgency=low
+
+  * Depend on haskell-devscripts 0.8.13 to ensure this package is built
+    against experimental
+  * Bump standards version, no change
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 14 Oct 2012 12:00:28 +0200
+
+haskell-comonad (1.1.1.5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 17 May 2012 12:41:57 +0200
+
+haskell-comonad (1.1.1.1-2) unstable; urgency=low
+
+  * Sourceful upload to rebuild documentation package
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 04 Feb 2012 19:38:32 +0100
+
+haskell-comonad (1.1.1.1-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Iulian Udrea <iulian@linux.com>  Fri, 02 Sep 2011 23:24:16 +0100
