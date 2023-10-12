@@ -1,8 +1,8 @@
-haskell-comonad (5.0.6-deepin1) unstable; urgency=medium
+haskell-comonad (5.0.8-1) unstable; urgency=medium
 
-  * Rebuild
+  * New upstream version.
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:37:16 +0800
+ -- Clint Adams <clint@debian.org>  Tue, 14 Jun 2022 16:37:57 -0400
 
 haskell-comonad (5.0.6-1) unstable; urgency=medium
 

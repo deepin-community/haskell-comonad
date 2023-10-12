@@ -1,3 +1,16 @@
+5.0.8 [2020.12.30]
+------------------
+* Explicitly mark modules as Safe or Trustworthy.
+* The build-type has been changed from `Custom` to `Simple`.
+  To achieve this, the `doctests` test suite has been removed in favor of using
+  [`cabal-docspec`](https://github.com/phadej/cabal-extras/tree/master/cabal-docspec)
+  to run the doctests.
+
+5.0.7 [2020.12.15]
+------------------
+* Move `FunctorWithIndex (TracedT m w)` instance from `lens`.
+  This instance depends on the `indexed-traversable` package. This can be disabled using the flag of the same name.
+
 5.0.6 [2019.11.26]
 ------------------
 * Achieve forward compatibility with
